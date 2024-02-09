@@ -1,22 +1,18 @@
-Sure, here's how you could rewrite the README file:
-
----
-
 # UVC Herkansing Frontend
 
-This repository contains the frontend portion of the UVC Herkansing project. The backend for this project can be found at [UVC Hugo Backend](https://github.com/HugovandeVelde/UVC-Hugo-backend).
+Deze repository bevat het frontend gedeelte van het UVC Herkansing project. De backend voor dit project kan worden gevonden op [UVC Hugo Backend](https://github.com/HugovandeVelde/UVC-Hugo-backend).
 
-## Getting Started
+## Aan de slag
 
-To run this code locally, follow these steps:
+Om deze code lokaal uit te voeren, volg deze stappen:
 
-1. Clone this repository to your local machine.
-2. Navigate to the project directory.
-3. Execute `npm install` to install the necessary dependencies.
-4. Once the dependencies are installed, execute `npm run dev` to start the development server.
+1. Kloon deze repository naar je lokale machine.
+2. Navigeer naar de projectmap.
+3. Voer `npm install` uit om de benodigde afhankelijkheden te installeren.
+4. Nadat de afhankelijkheden zijn geïnstalleerd, voer `npm run dev` uit om de ontwikkelingsserver te starten.
 
-Now you should be able to access the frontend of the UVC Herkansing project locally.
+Nu zou je lokaal toegang moeten hebben tot het frontend van het UVC Herkansing project.
 
 ---
 
-Feel free to adjust the wording or add any additional information as needed!
+Voel je vrij om de bewoording aan te passen of extra informatie toe te voegen indien nodig!
