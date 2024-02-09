@@ -12,7 +12,3 @@ Om deze code lokaal uit te voeren, volg deze stappen:
 4. Nadat de afhankelijkheden zijn geïnstalleerd, voer `npm run dev` uit om de ontwikkelingsserver te starten.
 
 Nu zou je lokaal toegang moeten hebben tot het frontend van het UVC Herkansing project.
-
----
-
-Voel je vrij om de bewoording aan te passen of extra informatie toe te voegen indien nodig!
