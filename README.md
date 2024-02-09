@@ -1,38 +1,22 @@
-# create-svelte
+Sure, here's how you could rewrite the README file:
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+---
 
-## Creating a project
+# UVC Herkansing Frontend
 
-If you're seeing this, you've probably already done this step. Congrats!
+This repository contains the frontend portion of the UVC Herkansing project. The backend for this project can be found at [UVC Hugo Backend](https://github.com/HugovandeVelde/UVC-Hugo-backend).
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Getting Started
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+To run this code locally, follow these steps:
 
-## Developing
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Execute `npm install` to install the necessary dependencies.
+4. Once the dependencies are installed, execute `npm run dev` to start the development server.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Now you should be able to access the frontend of the UVC Herkansing project locally.
 
-```bash
-npm run dev
+---
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Feel free to adjust the wording or add any additional information as needed!
