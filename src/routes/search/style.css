@@ -1,0 +1,74 @@
+Label styles 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.search-page-header {
+  text-align: center;
+  font-size: 36px; /* Grotere tekstgrootte */
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.section-heading {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.search-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto 20px;
+  max-width: 400px;
+}
+
+.search-section > div {
+  margin-bottom: 15px;
+}
+
+.search-section label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.search-section input[type="range"],
+.search-section select {
+  width: calc(100% - 40px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  clear: both;
+}
+
+.search-section output {
+  float: right;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #666;
+}
+
+.search-button {
+  display: block;
+  width: 150px; /* pas de breedte aan naar wens */
+  margin: 50px auto 0; /* voeg wat ruimte boven de knop toe */
+  background-color: green;
+  padding: 10px 20px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border-radius: 5px; /* afgeronde hoeken */
+}
+
+.search-button:hover {
+  background-color: darkgreen;
+}
