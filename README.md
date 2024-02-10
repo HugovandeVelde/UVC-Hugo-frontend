@@ -11,4 +11,6 @@ Om deze code lokaal uit te voeren, volg deze stappen:
 3. Voer `npm install` uit om de benodigde afhankelijkheden te installeren.
 4. Nadat de afhankelijkheden zijn geïnstalleerd, voer `npm run dev` uit om de ontwikkelingsserver te starten.
 
-Nu zou je lokaal toegang moeten hebben tot het frontend van het UVC Herkansing project.
+Nu zou je lokaal toegang moeten hebben tot het frontend van het UVC Herkansing project, de benodigde poort zal aangegeven worden door VScode.
+
+* Alle extras zijn te vinden in de extras map. Zoals de ERD, Figma Design e.d.
