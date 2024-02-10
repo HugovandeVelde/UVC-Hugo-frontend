@@ -32,7 +32,7 @@
             {#if user.id === recipe.creator_id}
               <h5 class="mb-8">{user.name}</h5>
               <div class="ratingButton">
-                <a class="ratingLink" href={`${recipeId + 1}/ratings`}>Bekijk ratings</a>
+                <a class="ratingLink" href={`${recipeId + 1}/ratings`}>Bekijk beoordelingen</a>
               </div>
             {/if}
           {/each}
