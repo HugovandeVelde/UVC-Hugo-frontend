@@ -28,6 +28,13 @@
         const totalRatings = data.reduce((acc, curr) => acc + curr.rating, 0);
         averageRating = totalRatings / data.length;
     }
+
+    function generateStars(rating) {
+    const fullStars = Math.floor(rating);
+    const halfStars = Math.ceil(rating - fullStars);
+    const emptyStars = 10 - fullStars - halfStars;
+    return '★'.repeat(fullStars) + '☆'.repeat(halfStars) + '☆'.repeat(emptyStars);
+  }
   </script>
   
   <style>
@@ -95,11 +102,16 @@
   </style>
   
   <main style="padding-top: 20px;">
-    <div class="back-button-container">
+    <div class="back-button-container" style="position: relative; top: -10px; left: -200px;">
       <BackButton />
     </div>
-    <h1>Beoordelingen voor Recept {recipeId}</h1>
-    <div class="average-rating">Gemiddelde Beoordeling: {averageRating.toFixed(1)}/10</div>
+    <div style="margin-top: 40px;">
+      <h1><span style="font-weight: bold;">Beoordelingen voor Recept</span> <span style="font-weight: bold;">{recipeId}</span></h1>
+    </div>
+    <div class="average-rating" style="margin-top: 20px;">
+      <span style="font-weight: bold;">Gemiddelde Beoordeling:</span><br>
+      <span style="font-size: 24px;">{#each generateStars(averageRating) as star}<span>{star}</span>{/each}</span>
+    </div>
   
     {#if $ratings.length > 0}
         <ul class="ratings-list">
@@ -119,6 +131,7 @@
     {/if}
   
     <a href={`/recipe/${recipeId}/addrating`} class="add-review-button">Voeg je eigen recensie toe</a>
+    <div style="height: 75px;"></div>
   
     <BottomBar />
   </main>
